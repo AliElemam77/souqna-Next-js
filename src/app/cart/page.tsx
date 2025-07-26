@@ -64,7 +64,7 @@ export default function CartPage() {
                 className="flex items-center justify-between gap-4 p-4 bg-white shadow-sm rounded-lg"
               >
                 <div className="flex items-center gap-4">
-                  <img
+                  <Image
                     src={item.image}
                     alt={item.name}
                     width={60}
